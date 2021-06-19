@@ -1,0 +1,215 @@
+.main-bg {
+  height: 100vh;
+  background-image: url("../../img/wp-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bg .main-container {
+  flex: 1;
+  max-width: 90%;
+  text-transform: uppercase;
+}
+
+.main-bg .main-container h1 {
+  color: #2b2829;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.main-bg .main-container .main-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 20px 25px;
+  background: #423331;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.intro-container {
+  font-family: "Lato", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.intro-container .intro-hero {
+  padding: 2rem 0 2.5rem 0;
+}
+
+.intro-container .intro-hero h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro-container .intro-hero p {
+  text-align: center;
+  font-weight: 300;
+}
+
+.intro-container .intro {
+  padding: 1rem 0 7rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.intro-container .intro .card {
+  text-align: center;
+}
+
+.intro-container .intro .card .intro-img {
+  height: 80%;
+  width: 100%;
+}
+
+.intro-container .intro .card .intro-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.intro-container .intro .card p {
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.intro-container .intro .card h4 {
+  margin: 8px 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.intro-container .intro .card button {
+  cursor: pointer;
+  padding: 20px 25px;
+  background: #423331;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.bakery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Roboto", sans-serif;
+}
+
+.bakery-container .bakery-img {
+  height: 100%;
+  width: 100%;
+}
+
+.bakery-container .bakery-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.bakery-container .bakery-text {
+  margin: 5rem;
+}
+
+.bakery-container .bakery-text h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.bakery-container .bakery-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.bakery-container .bakery-text .main-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 20px 25px;
+  background: #423331;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.delivery-container {
+  background-color: burlywood;
+  font-family: "Lato", sans-serif;
+}
+
+.delivery-container h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.delivery-container .delivery {
+  padding: 3rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.delivery-container .delivery .card {
+  text-align: center;
+}
+
+.delivery-container .delivery .card h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .bakery-container {
+    grid-template-columns: 1fr;
+  }
+  .bakery-container .bakery-img.first {
+    order: 1;
+  }
+  .bakery-container .bakery-text .main-btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .delivery-container h2 {
+    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .delivery-container .delivery {
+    padding: 0 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .delivery-container .delivery .card {
+    text-align: left;
+  }
+  .delivery-container .delivery .card h4 {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .main-bg .main-container {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f8cc91;
+  z-index: 999;
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbar .nav-links a {
+  margin: 0 15px;
+}
+
+.navbar .accounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .accounts li {
+  margin: 0 7px;
+}
+
+.navbar a {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */

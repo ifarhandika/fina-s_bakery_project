@@ -1,0 +1,92 @@
+.footer {
+  background-color: #2b2b2b;
+  font-family: 'Bebas Neue', cursive;
+  padding: 0 30px;
+}
+
+.footer .newsletter-container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+  color: #fff5e9;
+}
+
+.footer .newsletter-container h3 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.footer .newsletter-container p {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.footer .newsletter-container .form-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .newsletter-container .form-wrap input {
+  color: #fff5e9;
+  font-size: 15px;
+  padding: 10px 5px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff5e9;
+  outline: none;
+}
+
+.footer .newsletter-container .form-wrap input:nth-child(1) {
+  margin: 0 15px;
+}
+
+.footer .newsletter-container .form-wrap input:focus {
+  color: #fff5e9;
+}
+
+.footer .newsletter-container .form-wrap input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer .newsletter-container .form-wrap button {
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  background: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  color: burlywood;
+}
+
+.footer .line {
+  height: 2px;
+  width: 100%;
+  background-color: #fff5e9;
+}
+
+.footer .footer-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 40px 0 50px 0;
+  color: #fff5e9;
+}
+
+.footer .footer-main h4 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-main a {
+  text-decoration: none;
+  font-size: 20px;
+  color: burlywood;
+  outline: none;
+}
+/*# sourceMappingURL=footer.css.map */
